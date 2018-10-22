@@ -10,6 +10,11 @@ using System.Threading.Tasks;
 
 namespace Ksu.Cis300.PriorityQueueLibrary
 {
+    /// <summary>
+    /// Creates the MinPriorityQueue
+    /// </summary>
+    /// <typeparam name="TPriority">The Priority as the key</typeparam>
+    /// <typeparam name="TValue">TValue as a Value</typeparam>
     public class MinPriorityQueue<TPriority, TValue> where TPriority : IComparable<TPriority>
     {
         /// <summary>

@@ -30,6 +30,9 @@ namespace Ksu.Cis300.PriorityQueueLibrary
         /// </summary>
         public LeftistTree<T> RightChild { get; }
 
+        /// <summary>
+        /// The path length
+        /// </summary>
         private int _pathLength = 0;
 
         /// <summary>
